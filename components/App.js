@@ -20,7 +20,7 @@ App = React.createClass({
                 gif: gif,
                 searchingText: searchingText
             });
-        }.bind( this ));
+        }.bind(this));
     },
 
     getGif: function( searchingText, callback ) {
@@ -35,7 +35,7 @@ App = React.createClass({
                     url: data.fixed_width_downsampled_url,
                     sourceUrl: data.url
                 };
-                callback( gif );
+                callback(gif);
             }
         };
         xhr.send();
