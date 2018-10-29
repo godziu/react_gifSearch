@@ -16,10 +16,10 @@ Search = React.createClass({
     },
 
     handleKeyUp: function(event) {
-        if(event.keyCode === 13) {
-            this.props.onSearch(this.state.searchingText);
+        if (event.keyCode === 13) {
+          this.props.onSearch(this.state.searchingText);
         }
-    },
+      },
 
     render: function() {
         var styles = {
